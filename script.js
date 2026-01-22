@@ -160,7 +160,7 @@ document.querySelectorAll('.paket').forEach(paket => {
 const kontakSection = document.querySelector('.kontak');
 if (kontakSection) {
     const waButton = document.createElement('a');
-    waButton.href = 'https://wa.me/6283173639955?text=Halo, saya mau pesan es coklat!';
+    waButton.href = 'https://wa.me/6283173639995?text=Halo, saya mau pesan es coklat!';
     waButton.className = 'btn-primary';
     waButton.textContent = '💬 Chat WhatsApp';
     waButton.style.cssText = `
@@ -222,7 +222,7 @@ if (kontakSection) {
 
 
 const floatingWA = document.createElement('a');
-floatingWA.href = 'https://wa.me/6283173639955?text=Halo, saya mau pesan es coklat!';
+floatingWA.href = 'https://wa.me/6283173639995?text=Halo, saya mau pesan es coklat!';
 floatingWA.target = '_blank';
 floatingWA.innerHTML = '💬';
 floatingWA.style.cssText = `
@@ -328,3 +328,4 @@ style.textContent = `
     }
 `;
 document.head.appendChild(style);
+
